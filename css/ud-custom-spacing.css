@@ -87,9 +87,15 @@ padding-top: 95px !important;
 padding-top: 100px !important;
 }.pt110 {
 padding-top: 110px !important;
-}.pt120 {
-padding-top: 120px !important;
-}.pt130 {
+ }
+ /* .pt120 {
+padding-top: 120px !important; 
+}*/
+.texto{
+	width: 100%;
+}
+
+.pt130 {
 padding-top: 130px !important;
 }.pt140 {
 padding-top: 140px !important;
@@ -497,7 +503,7 @@ margin-right: 20px !important;
 }.mr25 {
 margin-right: 25px !important;
 }.mr30 {
-margin-right: 30px !important;
+margin-right: 20px !important;
 }.mr35 {
 margin-right: 35px !important;
 }.mr40 {
