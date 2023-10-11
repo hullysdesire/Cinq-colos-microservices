@@ -168,7 +168,7 @@ h6 {
 }
 
 p {
-  margin: 25px 0 0 0;
+  /* margin: 25px 0 0 0; */
   color: var(--body-text-color);
   line-height: 1.85;
   font-weight: 400;
@@ -11842,3 +11842,29 @@ header .list-item{
   font-size: 16px;
   margin-left: 10px;
 }
+
+/* button freelance */
+ .free-sing{
+  margin-left: 70px;
+  background-color: black;
+ }
+
+ .free-sing a {
+  color: white;
+  padding: 25px;
+ }
+
+ .free-sing:hover{
+  background-color: green;
+ }
+
+ .section1{
+  width: 90%;
+  margin: 0 auto 80px;
+  padding: 0 150px; 
+ }
+
+ .comment{
+  display: flex;
+  gap: 20px;
+ }
