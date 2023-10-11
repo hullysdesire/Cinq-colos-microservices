@@ -10,23 +10,6 @@
         });
     }
 
-    // Le script qui manipule le button qui ramène en haut
-    window.addEventListener("scroll", function () {
-      var scrollButton = document.getElementById("scroll-to-top");
-      if (window.scrollY > 300) {
-        scrollButton.style.display = "block";
-      } else {
-        scrollButton.style.display = "none";
-      }
-    });
-    
-    document.getElementById("scroll-to-top").addEventListener("click", function () {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-      });
-    });
-
     /* ----- Navbar Scroll To Fixed ----- */
     function navbarScrollfixed() {
         $('.navbar-scrolltofixed').scrollToFixed();
