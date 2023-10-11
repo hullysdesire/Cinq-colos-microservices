@@ -11835,12 +11835,56 @@ header .list-item{
  }
 
  .section1{
-  width: 90%;
-  margin: 0 auto 80px;
-  padding: 0 150px; 
+  width: 80%;
+  margin: 0 auto ;
+  padding: 25px 80px 50px;
+  background-color: #FFEDE8; 
  }
+ .section2{
+  width: 80%;
+  margin: 0 auto ; 
+  padding: 25px 80px 50px; 
+  background-color: lightgray;
+
+ }
+
 
  .comment{
   display: flex;
   gap: 20px;
+ }
+
+ .flexy{
+  display: flex;
+  gap: 10px;
+ }
+
+ .flexy .mb25{
+  width: 100%;
+ }
+ .mb30 h2{
+  text-align: center;
+ }
+
+.body{
+  height: 100vh;
+  width: 100%;
+  background-color: #222222;
+}
+.congratuled{
+  background-color: lightgreen;
+  width: 50%;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 100px auto;
+
+}
+
+ .congratuled .col-auto{
+  display: flex;
+  justify-content: center;
+ }
+
+ .config{
+   text-align: center;
  }
